@@ -25,11 +25,14 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+
+  TextEditingController textEditingController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-          child: TextFieldWidget()
+          child: TextFieldWidget(controller: textEditingController,)
       ),
     );
   }
