@@ -5,7 +5,7 @@ class TextWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text('this is a Text widget',
+    return const Text('this is a Text widget',
       style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
     );
   }

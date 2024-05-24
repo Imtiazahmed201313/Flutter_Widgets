@@ -6,10 +6,10 @@ class ContainerWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         color: Colors.white,
       ),
-      child: Text('This is a Container Widget'),
+      child: const Text('This is a Container Widget'),
     );
   }
 }
